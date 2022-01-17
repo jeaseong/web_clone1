@@ -4,51 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="footer.css">
+   
     <title>jaeseong</title>
   </head>
   <body>
+    <div class="fixed">
       <header class="header_bar">
-          <div class="header_logo"></div>
-          <nav class="nav_bar">
-              <ul class="nav_list">
-                  <li class="nav_list-item">Home</li>
-                  <li class="nav_list-item">Blog</li>
-                  <li class="nav_list-item">Projects</li>
-                  <li class="nav_list-item">About</li>
-              </ul>
-          </nav>
-          <div class="header_serach"></div>
+        <img class="header_logo" src="./img/logo.png" alt="로고" />
+        <nav class="nav_bar">
+          <ul class="nav_list">
+            <li class="nav_list-item">Home</li>
+            <li class="nav_list-item">Blog</li>
+            <li class="nav_list-item">Projects</li>
+            <li class="nav_list-item">About</li>
+          </ul>
+        </nav>
+        <div class="header_icon">
+          <i class="fas fa-search header_serach"></i>
+        </div>
       </header>
-      <div class="container_wrap">
-      <main class="main">
+    </div>
+      
 
-          <section class="home">
-              <div class="container_header">
-                  <h1 class="home_title">엘리스 코딩 자유 스터디 클론 코딩 모임</h1>
-                  <p class="home_title-sub">서로 도우며 화이팅!</p>
-              </div>
-          </section>
-          <section class="content content_blog">
-                <h2 class="content_title">All Blog</h2>
-                <div class="content_container">
-                    <article class="content_col">
-                        <img src="" alt="" class="content_col-img">
-                        <h3 class="content_col-title"></h3>
-                        <p class="content_col-des"></p>
-                    </article>
-                    <article class="content_col">
-                        <img src="" alt="" class="content_col-img">
-                        <h3 class="content_col-title"></h3>
-                        <p class="content_col-des"></p>
-                    </article>
-                </div>
-          </section>
+      <main class="main">
+        <section class="home">
+            <div class="container_wrap">
+          <div class="container_header">
+            <h1 class="home_title">엘리스 코딩 자유 스터디 클론 코딩 모임</h1>
+            <p class="home_title-sub">서로 도우며 화이팅!</p>
+          </div>
+        </div>
+        </section>
+        <section class="content content_blog">
+            <div class="container_wrap">
+          <h2 class="content_title">|&nbsp All Blogs &nbsp|</h2>
+          <div class="content_container">
+            <article class="content_col">
+              <img src="./img/blog_1.jpg" alt="사진" class="content_col-img" />
+              <h3 class="content_col-title">The Blog Title Here</h3>
+              <p class="content_col-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, nam placeat odio, illum iste nulla distinctio laboriosam rerum exercitationem fuga officia tempore temporibus commodi animi ab? Suscipit qui sint consectetur?</p>
+              <button class="btn_more">Read more</button>
+            </article>
+            <article class="content_col">
+              <img src="./img/blog_2.jpg" alt="" class="content_col-img" />
+              <h3 class="content_col-title">The Blog Title Here
+            </h3>
+              <p class="content_col-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa incidunt reiciendis, inventore neque omnis velit earum voluptatibus quis facilis amet, tenetur enim assumenda minima aliquid iure odit consequuntur quisquam recusandae.</p>
+              <button class="btn_more">Read more</button>
+            </article>
+          </div>
+        </div>
+        </section>
       </main>
       <footer class="footer">
-          <section class="content">
-
-          </div>
+        <div class="container_wrap">
+        <div class="quick">
+            
+          <ul class="quick_list">
+            <li class="quick_list-item">home</li>
+            <li class="quick_list-item">About</li>
+            <li class="quick_list-item">Privacy Policy</li>
+            <li class="quick_list-item">Blogs</li>
+            <li class="quick_list-item">Projects</li>
+            <li class="quick_list-item">Contact</li>
+          </ul>
+        </div>
+        <p class="copyright">이건 박재성이 만든 클론 웹사이트 입니다.</p>
+        <div class="sns_container">
+            <div class="sns_wrap">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-github"></i>
+        </div>
+        </div>
+        </div>
       </footer>
     </div>
+
+    <script src="https://kit.fontawesome.com/8e360404c3.js" crossorigin="anonymous"></script>
   </body>
 </html>
